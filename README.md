@@ -24,11 +24,11 @@ int main(void) {
 ```
 
 
-```2. Digital Dice with LED
+2. Digital Dice with LED
 
 
 
-#include <avr/io.h>
+```#include <avr/io.h>
 #include <util/delay.h>
 
 int main() {
