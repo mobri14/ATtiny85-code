@@ -4,7 +4,7 @@ Simple code examples for ATtiny85
 
 
 1. LED Blinker
-cpp
+```cpp
 Copy code
 #include <avr/io.h>
 #include <util/delay.h>
@@ -15,7 +15,7 @@ int main(void) {
         PORTB ^= (1 << PB0); // Toggle PB0
         _delay_ms(500);
     }
-}
+}```
 2. Digital Dice with LED
 cpp
 Copy code
