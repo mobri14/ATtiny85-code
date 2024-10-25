@@ -11,7 +11,7 @@ Simple code examples for ATtiny85
 
 
 
-#include <avr/io.h>
+```#include <avr/io.h>
 #include <util/delay.h>
 
 int main(void) {
@@ -21,10 +21,10 @@ int main(void) {
         _delay_ms(500);
     }
 }
+```
 
 
-
-2. Digital Dice with LED
+```2. Digital Dice with LED
 
 
 
@@ -38,7 +38,7 @@ int main() {
         _delay_ms(1000);
     }
 }
-
+```
 
 
 
@@ -46,7 +46,7 @@ int main() {
 
 
 
-#include <avr/io.h>
+```#include <avr/io.h>
 #include <util/delay.h>
 #include <stdio.h>
 
@@ -66,3 +66,4 @@ int main() {
         _delay_ms(500);
     }
 }
+```
